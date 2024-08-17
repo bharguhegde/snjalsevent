@@ -65,17 +65,25 @@
     display: flex;
     padding-top: 3rem;
   }
-  .home-bannerImage-container {
+  /* .home-bannerImage-container {
     position: absolute;
     top: -100px;
     right: -170px;
     z-index: -2;
     max-width: 700px;
+  } */
+
+  .home-bannerImage-container{
+    position: absolute;
+    top: -90px;
+    right: -77px;
+    z-index: -2;
+    max-width: 700px;
   }
-  .home-image-section {
+  /* .home-image-section {
     max-width: 600px;
     flex: 1;
-  }
+  } */
   .home-text-section {
     flex: 1;
     display: flex;
@@ -86,7 +94,7 @@
   .primary-heading {
     font-size: clamp(2rem, 5vw, 4rem);
     color: #4c4c4c;
-    /* line-height: 5rem; */
+    line-height: 5rem;
     max-width: 600px;
   }
   .primary-text {
