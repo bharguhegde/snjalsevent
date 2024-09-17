@@ -10,7 +10,7 @@ function Home() {
         <Navbar/>
         <div className='home-banner-container'>
           <div className='home-bannerImage-container'>
-            <img src={BannerBackground} />
+            <img src={BannerBackground} tabIndex=""/>
           </div>
           <div className='home-text-section'>
             <h1 className='primary-heading'>Your Favourite Food Delivered Hot & Fresh</h1>
