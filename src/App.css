@@ -47,3 +47,24 @@
   gap: 10px;
   margin-top: 20px;
  }
+ .shimmer-card{
+  width: 300px;
+  height: 500px;
+  padding: 10px;
+  background: #f0f0f0;
+ }
+ .shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+ }
+ .login-btn{
+  padding: 5px;
+
+ }
+ button.search-btn {
+  padding: 6px;
+  margin-left: 10px;
+}
